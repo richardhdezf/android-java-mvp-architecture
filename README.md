@@ -1,1 +1,1 @@
-# android-java-mvc-architecture
+# android-java-mvp-architecture
