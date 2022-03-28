@@ -6,7 +6,7 @@ A password app illustrating the use of Model View Presenter (MVP) architecture.
 Introduction
 ------------
 
-Password app demonstrates utilizing the MVP architecture. Based on user input, verify the strength
+Password app demonstrates implementation of the MVP architecture. Based on user input, verify the strength
 of the password and update the ui accordingly. The app was build using java programming language.
 
 Getting Started
@@ -17,7 +17,7 @@ Clone or download the project, then run it.
 Screenshots
 -----------
 
-![password app video](screenshots/password_app_video.mp4 "password app video")
+![password app video](screenshots/password_app_video.gif "password app video")
 ![password weak status](screenshots/password_weak_state.jpeg "password weak state")
 ![password weak status](screenshots/password_very_strong_state.jpeg "password very strong state")
 
