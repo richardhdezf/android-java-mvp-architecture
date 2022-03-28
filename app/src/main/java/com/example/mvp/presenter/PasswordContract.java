@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.desafio9.presenter;
+package com.example.mvp.presenter;
+
+import com.example.mvp.model.PasswordStrength;
 
 public interface PasswordContract {
 
@@ -22,13 +24,15 @@ public interface PasswordContract {
 
         void setPresenter(Presenter presenter);
 
-        void showPassword(int backgroundColor, int textColor, String strength);
+        void showPasswordStrength(PasswordStrength strength);
+
+        void showLoadingPasswordError();
     }
 
     interface Presenter {
 
         void start();
 
-        void verify(CharSequence cs);
+        void verify(String passwordId, CharSequence cs);
     }
 }

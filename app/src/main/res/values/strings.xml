@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Desafio9</string>
+    <string name="app_name">MVP</string>
+    <string name="errorLoadingPassword">Error loading data</string>
+    <string name="loadingPassword">Loading</string>
 </resources>
